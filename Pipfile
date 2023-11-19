@@ -23,6 +23,7 @@ dash = "*"
 dash-bootstrap-components = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"

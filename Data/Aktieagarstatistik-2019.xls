@@ -1,0 +1,508 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office" 
+	  xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	  xmlns="http://www.w3.org/TR/REC-html40">
+	<head id="xlHead"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="ProgId" content="Excel.Sheet" /><meta name="Generator" content="Microsoft Excel 14" /><title>
+	SCB - MetaPlusWeb
+</title>
+		<style type="text/css">
+			<!--	        
+			@page
+			{   
+				mso-header-data:"&V &G&H\000ASida &S av &A";
+				mso-footer-data:"&V https\:\/\/metadata.scb.se&H&D";
+				margin:1.38in .79in .98in .79in;
+				mso-header-margin:.51in;
+				mso-footer-margin:.51in
+			}
+			col
+			{
+				mso-width-source:userset				
+			}
+			td
+			{
+				color:Black;
+				font-size:8pt;
+				font-family:Verdana;
+				vertical-align:bottom;
+				white-space:wrap									
+			}
+			-->
+		</style>
+		<!--[if gte mso 9]><xml>
+		 <x:ExcelWorkbook>
+		  <x:ExcelWorksheets>
+		   <x:ExcelWorksheet>
+			<x:Name>Blad1</x:Name>
+			<x:WorksheetOptions>
+			 <x:PageSetup>
+			  <x:Layout x:Orientation="Landscape"/>
+			 </x:PageSetup>
+			 <x:Print>
+			  <x:ValidPrinterInfo/>
+			  <x:PaperSizeIndex>9</x:PaperSizeIndex>
+			  <x:HorizontalResolution>1200</x:HorizontalResolution>
+			  <x:VerticalResolution>1200</x:VerticalResolution>              
+			  <x:HeaderPicture>
+			   <x:Location>Left</x:Location>
+			   <x:Source>https://scb.se/resources/images/SCB-logo_sv.png</x:Source>
+			   <x:LockAspectRatio/>
+			   <x:ColorType>Automatic</x:ColorType>
+			  </x:HeaderPicture>
+			 </x:Print>
+			 <x:Selected/>
+			 <x:Panes>
+			  <x:Pane>
+			   <x:Number>3</x:Number>
+			   <x:ActiveRow>2</x:ActiveRow>
+			   <x:RangeSelection>$A$3:$B$3</x:RangeSelection>
+			  </x:Pane>
+			 </x:Panes>
+			 <x:ProtectContents>False</x:ProtectContents>
+			 <x:ProtectObjects>False</x:ProtectObjects>
+			 <x:ProtectScenarios>False</x:ProtectScenarios>
+			</x:WorksheetOptions>
+		   </x:ExcelWorksheet>
+		  </x:ExcelWorksheets>
+		  <x:WindowHeight>12405</x:WindowHeight>
+		  <x:WindowWidth>15180</x:WindowWidth>
+		  <x:WindowTopX>120</x:WindowTopX>
+		  <x:WindowTopY>60</x:WindowTopY>
+		  <x:ProtectStructure>False</x:ProtectStructure>
+		  <x:ProtectWindows>False</x:ProtectWindows>
+		 </x:ExcelWorkbook>
+		 <x:ExcelName>
+		 <x:Name>Print_Area</x:Name>
+		  <x:SheetIndex>1</x:SheetIndex>
+		  <x:Formula>=Blad1!$A:$C</x:Formula>
+		 </x:ExcelName>
+		</xml><![endif]-->
+	</head>
+	<body>
+		<div x:publishsource="Excel" x:printarea="">
+			<table id="tblExcel">
+	<tr id="xl1">
+		<td id="xlA1" colspan="3" style="font-family:Arial; font-size:20pt; color:Red; vertical-align:121">Aktie&#228;garstatistik 2019</td>
+		<td id="xlD1" style="font-family:Arial; font-size:20pt; color:White" colspan="10">Aktie&#228;garstatistik 2019</td>
+	</tr>
+	<tr id="xl3">
+		<td id="xlA3" colspan="3" style="vertical-align:121"><font style='font-weight:bold'>Tillhörighet:</font> Aktieägarstatistik<sup>1</sup> :: Aktieägarstatistik<sup>2</sup> ::</td>
+		<td id="xlD3" style="color:White" colspan="10"><font style='font-weight:bold'>Tillhörighet:</font> Aktieägarstatistik<sup>1</sup> :: Aktieägarstatistik<sup>2</sup> ::</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr style="display:none">
+		<td id="tclColA" style="width:187pt; vertical-align: top"></td>
+		<td id="tclColB" style="width:264pt"></td>
+		<td id="tclColC" style="width:0pt"></td>
+		<td id="tclColD" style="width:115pt"></td>
+		<td id="tclColE" style="width:125pt"></td>
+		<td id="tclColF" style="width:75pt"></td>
+		<td id="tclColG" style="width:125pt"></td>
+		<td id="tclColH" style="width:80pt"></td>
+		<td id="tclColI" style="width:130pt"></td>
+		<td id="tclColJ" style="width:80pt"></td>
+		<td id="tclColK" style="width:75pt"></td>
+		<td id="tclColL" style="width:75pt"></td>
+		<td id="tclColM" style="width:75pt"></td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td style="color:Red;font-weight:bold;" colspan="3">Information om registerversionen</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td colspan="3" style="vertical-align:121;"><font style='font-weight:bold'>Beskrivning:</font> </td>
+		<td style="color:White;"><font style='font-weight:bold'>Beskrivning:</font> </td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td colspan="3" style="vertical-align:121;"><font style='font-weight:bold'>Mätinformation:</font> Data fås från Euroclear (Sveriges centrala värdepappersförvarare) 2 ggr per år. Efter fem produktionsomgångar avidentifieras alla ägare i produktionssystemet. Aktiekurser samt markering för börslista samlas in från de olika marknadsplatserna genom manuell hämtning av excelfiler.</td>
+		<td style="color:White;"><font style='font-weight:bold'>Mätinformation:</font> Data fås från Euroclear (Sveriges centrala värdepappersförvarare) 2 ggr per år. Efter fem produktionsomgångar avidentifieras alla ägare i produktionssystemet. Aktiekurser samt markering för börslista samlas in från de olika marknadsplatserna genom manuell hämtning av excelfiler.</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td colspan="3" style="vertical-align:121;"><font style='font-weight:bold'>Arkiveringsstatus:</font> Korttidslagrad.</td>
+		<td style="color:White;"><font style='font-weight:bold'>Arkiveringsstatus:</font> Korttidslagrad.</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">Variabler (21 st)</td>
+		<td style="vertical-align:top;color:Red;font-weight:Bold;">Definitioner</td>
+		<td></td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">Beskrivning</td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">Operationell definition</td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">Referenstid</td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">Extern kommentar</td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">V&#228;rdem&#228;ngden utg&#246;rs av</td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">V&#228;rdem&#228;ngdsbeskrivning</td>
+		<td style="color:Red;font-weight:Bold;">V&#228;rdem&#228;ngds-representation</td>
+		<td style="color:Red;font-weight:Bold;">V&#228;rdem&#228;ngds-m&#229;ttenhet</td>
+		<td style="color:Red;font-weight:Bold;">V&#228;rdem&#228;ngds-version</td>
+		<td style="color:Red;font-weight:Bold;">V&#228;rdem&#228;ngds-niv&#229;</td>
+		<td style="color:Red;font-weight:Bold;vertical-align:top;">Ben&#228;mning</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Emitterade v&#228;rdepapper [Population: Aktie]</td>
+		<td style="vertical-align:top;">utgivna handlingar vars v&#228;rde kan best&#228;mmas i pengar och som utg&#246;r en f&#246;rm&#246;genhetstillg&#229;ng m&#246;jlig att oms&#228;tta p&#229; den allm&#228;nna marknaden</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Bokf&#246;rda v&#228;rdepapper</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Antal</td>
+		<td style="vertical-align:top;">Antal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">AntalBokfVP</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Emitterade v&#228;rdepapper [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">utgivna handlingar vars v&#228;rde kan best&#228;mmas i pengar och som utg&#246;r en f&#246;rm&#246;genhetstillg&#229;ng m&#246;jlig att oms&#228;tta p&#229; den allm&#228;nna marknaden</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Emitterade v&#228;rdepapper</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Antal</td>
+		<td style="vertical-align:top;">Antal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">AntalBokfVP</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">F&#246;delse&#229;r [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">F&#246;delse&#229;r ber&#228;knas utifr&#229;n personnummer.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tid</td>
+		<td style="vertical-align:top;">&#197;rtal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">FodelseAr</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">ISIN-kod [Population: Aktie]</td>
+		<td style="vertical-align:top;">V&#228;rdepapperidentifikator enligt ISO 6166-standard.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Beskrivande text</td>
+		<td style="vertical-align:top;">International Securities Identification Number (ISIN) &#228;r en kod som unikt identifierar ett v&#228;rdepapper. ISIN-koden best&#229;r dels av en landskod p&#229; tv&#229; bokst&#228;ver, dels av en sifferkod p&#229; 10 siffror, varav den sista &#228;r en kontrollsiffra.</td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">ISIN</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Juridisk form [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Klassificering av juridiska enheter efter deras juridiska form. Tilldelas av Skatteverket. Tidigare hette standarden Standard f&#246;r klassificering av institutionella enheter med avseende p&#229; institutionell sektortillh&#246;righet, &#228;garkategori och juridisk form.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">I MiS 2001:2 har Skatteverkets indelning kompletterats med beskrivningar.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">JURFORM 2000</td>
+		<td style="vertical-align:top;">Niv&#229; 1</td>
+		<td style="vertical-align:top;">JurForm</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">K&#246;n [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Personens k&#246;n.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">K&#246;n, alfabetiskt alternativ</td>
+		<td style="vertical-align:top;">K&#246;n, alfabetisk version</td>
+		<td style="vertical-align:top;">Kon</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Land eller landgrupp [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Land eller landgrupp</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Landstillh&#246;righet p&#229; aktie&#228;garen.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Landskoder</td>
+		<td style="vertical-align:top;">Landskoder</td>
+		<td style="vertical-align:top;">Landskod</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Markering f&#246;r b&#246;rslista [Population: Aktie]</td>
+		<td style="vertical-align:top;">Markering f&#246;r vilken b&#246;rslista f&#246;retaget &#228;r noterat p&#229;</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">B&#246;rslistor</td>
+		<td style="vertical-align:top;">1</td>
+		<td style="vertical-align:top;">Listkod</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Marknad [Population: Aktie]</td>
+		<td style="vertical-align:top;">Anger typ av marknad</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Marknadsplats aktie&#228;garstatistiken</td>
+		<td style="vertical-align:top;">1</td>
+		<td style="vertical-align:top;">Marknadskod</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Marknadspris [Population: Aktie]</td>
+		<td style="vertical-align:top;">Variabel som anger pris till marknadsnotering som ett noterat v&#228;rdepapper handlas till.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">V&#228;rde</td>
+		<td style="vertical-align:top;">Kronor (SEK)</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">BetalKurs</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Namn [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">&#214;vergripande begrepp f&#246;r namns&#228;ttning av olika objekt</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Person- eller f&#246;retagsnamn.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Beskrivande text</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Namn</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Organisationsnummer [Population: Aktie]</td>
+		<td style="vertical-align:top;">Myndighetens eller f&#246;retagets organisationsnummer.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Beskrivande text</td>
+		<td style="vertical-align:top;">Organisationsnummer enligt svensk standard. Anges som 12 siffror</td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Orgnr</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Person-/organisationsnummer [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Identitetsbegrepp f&#246;r juridiska enheter. F&#246;r juridiska personer tilldelas organisationsnummer av Bolagsverket, Skatteverket, Kammarkollegiet, Lantm&#228;teriet, L&#228;nsstyrelse eller SCB, beroende p&#229; bolagsform. F&#246;r fysiska personer med n&#228;ringsverksamhet anv&#228;nds personnumret.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Beskrivande text</td>
+		<td style="vertical-align:top;">Person- eller organisationsnummer enligt svensk standard</td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">AgarOrgnr</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Referensperiod [Population: Aktie]</td>
+		<td style="vertical-align:top;">Den period uppgifterna avser.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tid</td>
+		<td style="vertical-align:top;">Datum</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Datum</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Sektortillh&#246;righet [Population: Aktie]</td>
+		<td style="vertical-align:top;">Klassificering av en institutionell enhets sektor. Tillh&#246;rande klassifikation &#228;r Standard f&#246;r klassificering av institutionella enheter efter institutionell sektor. Tidigare hette standarden Standard f&#246;r klassificering av institutionella enheter med avseende p&#229; institutionell sektortillh&#246;righet, &#228;garkategori och juridisk form.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">INSEKT 2014</td>
+		<td style="vertical-align:top;">Detaljgrupp</td>
+		<td style="vertical-align:top;">Sektor</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">Sektortillh&#246;righet [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Klassificering av en institutionell enhets sektor. Tillh&#246;rande klassifikation &#228;r Standard f&#246;r klassificering av institutionella enheter efter institutionell sektor. Tidigare hette standarden Standard f&#246;r klassificering av institutionella enheter med avseende p&#229; institutionell sektortillh&#246;righet, &#228;garkategori och juridisk form.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">INSEKT 2014</td>
+		<td style="vertical-align:top;">Detaljgrupp</td>
+		<td style="vertical-align:top;">Sektor</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">V&#228;rdepapperskonto [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Typ av &#228;garkonto.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">N&#228;r man &#228;ger aktier kan man ha ett konto diretkt hos Euroclear d&#228;r innehav registreras, man kan &#228;ven ha ett konto hos exempelvis en bank.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Kontoslag Euroclear</td>
+		<td style="vertical-align:top;">Kontoslag Euroclear</td>
+		<td style="vertical-align:top;">Kontotyp</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">V&#228;rdepapperssort [Population: Aktie]</td>
+		<td style="vertical-align:top;">Beskriver vilken sort v&#228;rdepapper har enligt Euroclears definition.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Beskrivande text</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">VPsort</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">V&#228;rdepapprets r&#246;stv&#228;rde [Population: Aktie]</td>
+		<td style="vertical-align:top;">Beskriver r&#246;stv&#228;rdet innehavaren har vid bolagsst&#228;mma.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Beskriver r&#246;stv&#228;rdet innehavaren har vid bolagsst&#228;mma.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Tal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Antal</td>
+		<td style="vertical-align:top;">Antal</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">RostVarde</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">&#197;ldersgrupp [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Gruppering av &#229;ldrar, &#229;ldern ber&#228;knad vid angiven tidpunkt.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Aktie&#228;garna klassas i olika &#229;ldersintervall beroende p&#229; f&#246;delse&#229;r.</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">&#197;ldersgrupp aktie&#228;garstatistiken</td>
+		<td style="vertical-align:top;">&#197;ldersgrupp aktie&#228;garstatistiken</td>
+		<td style="vertical-align:top;">AldersGrupp</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">&#196;gandetyp [Population: Aktie&#228;gare]</td>
+		<td style="vertical-align:top;">Typ av &#228;gande eller &#228;gare</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Koder</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">Ok&#228;nd</td>
+		<td style="vertical-align:top;"></td>
+		<td style="vertical-align:top;">&#196;gandetyp</td>
+		<td style="vertical-align:top;">1</td>
+		<td style="vertical-align:top;">RegTyp</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td style="border-bottom:.5pt solid Black;" colspan="14"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><sup>1</sup> avser <i>register</i></td>
+	</tr>
+	<tr>
+		<td colspan="2"><sup>2</sup> avser <i>registervariant</i></td>
+	</tr>
+</table>
+
+		</div>
+	</body>
+</html>
